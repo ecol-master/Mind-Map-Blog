@@ -1,0 +1,33 @@
+@import "./../../appStyles.scss";
+
+.page__content__knowledge {
+  flex: 1 1 auto;
+
+  .content__knowledge {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    .knowledge__content__wrapper {
+      max-width: $content-width;
+      margin: 0 auto;
+    }
+  }
+}
+
+.knowledge__menu__block {
+    letter-spacing: 0.5px;
+    h3 {
+    font-size: 24px;
+  }
+  ul {
+    li {
+        margin-bottom: 5px;
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+

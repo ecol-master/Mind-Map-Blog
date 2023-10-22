@@ -1,0 +1,9 @@
+.page__content__landing {
+  flex: 1 1 auto;
+
+  .landing__block1__wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid;
+  }
+}
