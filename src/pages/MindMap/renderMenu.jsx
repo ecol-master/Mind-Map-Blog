@@ -5,19 +5,24 @@ export const RenderKnowledgeMenu = () => {
   var menu = (
     <>
       <div className="knowledge__menu__block">
-        <h3>
-          <a href="">Machine Learning</a>
-        </h3>
+        <h3>Гайды по технологиям</h3>
         <ul>
           <li>
             <Link to="/mindmap/dad-i-want-to-be-r&d-engineer">Dad, I want to be an R&D engineer.</Link>
           </li>
+          <li>
+            <Link to="/mindmap/mom-i-want-to-be-ml-engineer">Mom, I want to be a ML engineer.</Link>
+          </li>
+          <li>
+            <Link to="/mindmap/how-to-start-in-c">Как заботать программирование на С?</Link>
+          </li>
+          <li>
+            <Link to="/mindmap/how-to-learn-shad">Как заботать ШАД???</Link>
+          </li>
         </ul>
       </div>
       <div className="knowledge__menu__block">
-        <h3>
-          <Link to="">Полезные Ресурсы</Link>
-        </h3>
+        <h3>Полезные Ресурсы</h3>
         <ul>
           <li>
             <Link to="/mindmap/it-events-nn">IT Events in Nizhny Novgorod</Link>
@@ -25,28 +30,31 @@ export const RenderKnowledgeMenu = () => {
         </ul>
       </div>
       <div className="knowledge__menu__block">
-        <h3>
-          <a href="">Programming</a>
-        </h3>
+        <h3>Матан</h3>
         <ul>
           <li>
-            <Link to="/mindmap/python-work-with-venv">Python</Link>
+            <Link to="/mindmap/algorithms">Алгоритмы</Link>
           </li>
           <li>
-            <Link to="">Golang</Link>
+            <Link to="/mindmap/discrete-mathematics">Дискретная Математика</Link>
+          </li>
+          <li>
+            <Link to="/mindmap/linear-algebra">Линейная Алгебра</Link>
+          </li>
+          <li>
+            <Link to="/mindmap/mathematical-analysis">Мат Анализ</Link>
           </li>
         </ul>
       </div>
+
       <div className="knowledge__menu__block">
-        <h3>
-          <a href="">Information Sources</a>
-        </h3>
+        <h3>Information Sources</h3>
         <ul>
           <li>
-            <a href="/">Vizual Capitalist</a>
+            <a href="https://www.visualcapitalist.com/">Vizual Capitalist</a>
           </li>
           <li>
-            <a href="/">Our World in Data</a>
+            <a href="https://ourworldindata.org/">Our World in Data</a>
           </li>
         </ul>
       </div>

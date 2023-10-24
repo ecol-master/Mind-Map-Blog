@@ -1,6 +1,5 @@
 import React from "react";
-import Article from "../MdPages/Article";
-import Markdown from "markdown-to-jsx";
+import Article from "./Article";
 
 const ITEventsNN = () => {
   return (

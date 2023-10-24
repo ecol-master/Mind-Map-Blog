@@ -6,6 +6,7 @@ import TinkoffBackendDay from "./img/tinkoff_senior_backend_day.jpg";
 import RNDEnginerr from "./img/rnd_engineer_3.jpg";
 import AreaCirlesImg from "./img/area_main_4.svg";
 import AreaCirles2Img from "./img/are_main_3.svg";
+import SHADImg from "./img/Shad_img.jpg";
 
 import "./Landing.scss";
 
@@ -68,6 +69,28 @@ export const Landing = () => {
               </div>
               <button className="button__read__more">
                 <Link to="/mindmap/dad-i-want-to-be-r&d-engineer">Read More</Link>
+              </button>
+            </div>
+          </CardArticle>
+          <hr></hr>
+          <CardArticle Image={SHADImg}>
+            <h3>
+              <Link to="/mindmap/how-to-learn-shad">How to learn Shad???</Link>
+            </h3>
+
+            <p className="card__main__text">
+              Тут как бы все то, что позволит вам не упустить драгоценный билет в счастливую жизнь с единорожками и пони
+              ^-^
+            </p>
+            <p className="author">Lobanov Eduard</p>
+            <div className="card__footer">
+              <div className="tags">
+                <div>Yandex</div>
+                <div>Data Science</div>
+                <div>SHAD</div>
+              </div>
+              <button className="button__read__more">
+                <Link to="/mindmap/how-to-learn-shad">Read More</Link>
               </button>
             </div>
           </CardArticle>
