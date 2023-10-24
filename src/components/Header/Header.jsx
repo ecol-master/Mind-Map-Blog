@@ -25,7 +25,6 @@ export const Header = () => {
           <nav className="header__nav">
             <div className="header__menu">
               <ul className="header__list__menu">
-                <li>About Us</li>
                 <li>
                   <a href="/mindmap">Mind Map</a>
                 </li>

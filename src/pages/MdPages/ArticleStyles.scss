@@ -1,6 +1,54 @@
-.article{
-    .article__wrapper{
-        max-width: 840px;
-        margin: 0 auto;
+@font-face {
+  font-family: Organetto;
+  src: url(./fonts/Fontspring-DEMO-organetto-bold.otf);
+}
+
+.article {
+  h1 {
+    font-family: Organetto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    color: #221b4c;
+    text-align: center;
+  }
+
+  .article__wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  p {
+    color: black;
+    font-weight: 350;
+  }
+}
+
+.article {
+  // Menus Styles
+  ul {
+    list-style: none;
+    li::before {
+      content: "•";
+      color: var(--main-color-obsidian);
+      margin-right: 7px;
     }
+  }
+  ol {
+    counter-reset: item;
+  }
+  ol li {
+    display: block;
+  }
+  ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    margin-left: 7px;
+    color: var(--main-color-obsidian);
+  }
+  ul,
+  ol {
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }

@@ -3,8 +3,7 @@ import Article from "./Article";
 
 const DadIWantToBeRDEngineer = () => {
   return (
-    <Article>
-      <h1>Dad, I wanna be R&D-engineer!</h1>
+    <Article articleName={"Dad, I want to be an R&D Engineer"}>
       <p>
         В отличие от математиков, где результаты твоих исследований становятся актуальными только лет через 300 после
         твоей смерти, исследователи в IT сразу (или почти сразу) видят результаты своих исследований, поэтому и интерес

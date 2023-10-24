@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Organetto;
+  src: url(./../../../MdPages/fonts/Fontspring-DEMO-organetto-bold.otf);
+}
+
+.card {
+  font-family: Roboto, sans-serif;
+  .card__wrapper {
+    // border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    .content__card {
+      display: flex;
+      .preview__image {
+        width: 300px;
+        height: 300px;
+        img {
+          max-height: 100%;
+        }
+      }
+
+      .content__text {
+        width: 100%;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+          margin: 0;
+          font-size: 42px;
+          font-family: Organetto;
+          a {
+            list-style: none;
+            color: #221b4c;
+            text-decoration: none;
+          }
+        }
+
+        .card__main__text {
+          font-weight: 350;
+          line-height: 1.2rem;
+          font-size: 16px;
+        }
+
+        .author {
+          // text-decoration: underline;
+          font-weight: bold;
+          font-size: 16px;
+          color: #221b4c;
+        }
+
+        .card__footer {
+          height: fit-content;
+          display: flex;
+          justify-content: space-between;
+          .tags {
+            display: flex;
+            align-items: center;
+            div {
+              margin-right: 10px;
+              font-size: 13px;
+              background-color: #dae0eb;
+              border: 2px solid #a5b4d0;
+              border-radius: 10px;
+              padding: 3px 15px;
+            }
+          }
+
+          .button__read__more {
+            font-size: 12px;
+            font-family: Roboto, sans-serif;
+            text-align: center;
+            width: 88px;
+            height: 28px;
+            border-radius: 7px;
+            border: 2px solid black;
+            background: #c9ff36;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.card::after {
+  content: "";
+  height: 10px;
+  width: 100%;
+  background-color: black;
+}

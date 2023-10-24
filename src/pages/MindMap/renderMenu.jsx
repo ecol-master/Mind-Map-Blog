@@ -6,8 +6,23 @@ export const RenderKnowledgeMenu = () => {
     <>
       <div className="knowledge__menu__block">
         <h3>
+          <a href="">Machine Learning</a>
+        </h3>
+        <ul>
+          <li>
+            <Link to="/mindmap/dad-i-want-to-be-r&d-engineer">Dad, I want to be an R&D engineer.</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="knowledge__menu__block">
+        <h3>
           <Link to="">Полезные Ресурсы</Link>
         </h3>
+        <ul>
+          <li>
+            <Link to="/mindmap/it-events-nn">IT Events in Nizhny Novgorod</Link>
+          </li>
+        </ul>
       </div>
       <div className="knowledge__menu__block">
         <h3>
@@ -29,19 +44,6 @@ export const RenderKnowledgeMenu = () => {
         <ul>
           <li>
             <a href="/">Vizual Capitalist</a>
-          </li>
-          <li>
-            <a href="/">Our World in Data</a>
-          </li>
-        </ul>
-      </div>
-      <div className="knowledge__menu__block">
-        <h3>
-          <a href="">Machine Learning</a>
-        </h3>
-        <ul>
-          <li>
-            <a href="/"></a>
           </li>
           <li>
             <a href="/">Our World in Data</a>
