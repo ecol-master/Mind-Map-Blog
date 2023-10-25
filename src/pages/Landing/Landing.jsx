@@ -26,7 +26,7 @@ export const Landing = () => {
           <div className="main__content__wrapper">
             <div className="texts">
               <h2>A Site For Your Personal Development</h2>
-              <p>Here you can find an articles with helpfull information for styding and education.</p>
+              <p>Here you can find an articles with helpfull information for studying and education.</p>
             </div>
           </div>
         </div>

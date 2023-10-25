@@ -46,7 +46,7 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="list__links__item">
-                  <a href="https://github.com/ecol-master/">
+                  <a href="https://github.com/ecol-master/Mind-Map-Blog">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         fill-rule="evenodd"
